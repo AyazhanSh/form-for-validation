@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+    <form action="" name="test" method="POST"  id="form">
+        <label for="name">Name</label>
+        <input type="text" name="name" placeholder="I am" id="name"><br>
+        <label for="email">email</label>
+        <input type="email" name="email" placeholder="email" id="email"><br>
+        <label for="password">Password</label>
+        <input type="password" name="password" placeholder="password" id="password"><br>
+        <label for="rePassword">Password</label>
+        <input type="password" name="rePassword" placeholder="password again" id="rePassword"><br>
+        <span>Sex:</span>
+        <input type="radio" name="state"  id="state" value="male" for = "male"> <span>male</span>
+        <input type="radio" name="state"  id="state" value="female" for = "female"> <span>female</span><br>
+        <input type="button" value="enter" name="submit" onclick='valid(document.getElementById("form"))'>
+    </form>
+    
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
